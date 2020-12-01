@@ -1,0 +1,27 @@
+//declaring a function for buying a product
+
+function getName(name){
+    var name = "Saman"
+    return name;
+}
+
+function getCredit(credit){
+    var credit = 1000;
+    var change = change - credit;
+    return change;
+}
+
+function getOrderId(orderCode)
+{
+    var orderCode = 1010;
+    while(getCredit(credit)>0)
+    {
+        
+        console.log("next order is: "+ orderCode);
+        orderCode++;
+    }
+}
+function order(orderCode){
+    console.log("Name : "+ getName(saman));
+
+}
