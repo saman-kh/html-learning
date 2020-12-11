@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: VazirBold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/vazir/eot/Vazir-Bold.eot');
+    src: url('fonts/vazir/eot/Vazir-Bold.eot?#iefix')
+        format('embedded-opentype'),
+      url('../fonts/vazir/woff2/Vazir-Bold.woff2') format('woff2'),
+      url('fonts/vazir/woff/Vazir-Bold.woff') format('woff'),
+      url('fonts/vazir/ttf/Vazir-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: VazirMedium;
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/vazir/eot/Vazir-Medium.eot');
+    src: url('fonts/vazir/eot/Vazir-Medium.eot?#iefix')
+        format('embedded-opentype'),
+      url('fonts/vazir/woff2/Vazir-Medium.woff2') format('woff2'),
+      url('fonts/vazir/woff/Vazir-Medium.woff') format('woff'),
+      url('fonts/vazir/ttf/Vazir-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/vazir/eot/Vazir.eot');
+    src: url('fonts/vazir/eot/Vazir.eot?#iefix') format('embedded-opentype'),
+      url('fonts/vazir/woff2/Vazir.woff2') format('woff2'),
+      url('fonts/vazir/woff/Vazir.woff') format('woff'),
+      url('fonts/vazir/ttf/Vazir.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: VazirLight;
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/vazir/eot/Vazir-Light.eot');
+    src: url('fonts/vazir/eot/Vazir-Light.eot?#iefix')
+        format('embedded-opentype'),
+      url('fonts/vazir/woff2/Vazir-Light.woff2') format('woff2'),
+      url('fonts/vazir/woff/Vazir-Light.woff') format('woff'),
+      url('fonts/vazir/ttf/Vazir-Light.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: VazirFaNum;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/vazir/eot/Vazir-FD.eot');
+    src: url('fonts/vazir/eot/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+      url('fonts/vazir/woff2/Vazir-FD.woff2') format('woff2'),
+      url('fonts/vazir/woff/Vazir-FD.woff') format('woff'),
+      url('fonts/vazir/ttf/Vazir-FD.ttf') format('truetype');
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: VazirLight, tahoma, arial;
+}
+
+/* Header section */
+.header{
+    width: 100%;
+    height: 3rem;
+    border: 1px solid black;
+    margin-bottom: 0.09rem;
+    display: inline-block;
+}
+
+#intro{
+    padding-right: 4rem;
+
+}
+
+/* Main section */
+.main{
+    width: 100%;
+    height: 30rem;
+    border: 1px solid black;
+    margin-bottom: 0.08rem;
+}
+
+.loginBox{
+    width: 30%;
+    height: 26rem;
+    margin: 2rem 2%;
+    border: 1px solid black;
+    float: right;
+    border-radius: 35px;
+}
+.version, .date{
+    padding: 3% 5%;
+    margin: 3%;
+    display: inline;
+    color: #fff;
+    
+}
+.logoBox{
+    width: 60%;
+    height: 26rem;
+    margin: 2rem 2.5%;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: rgba(24, 25, 45, 0.933);
+    border-radius: 35px;
+    overflow: hidden;
+    
+}
+
+.userLogin{
+    padding-top: 20%;
+    text-align: center;
+}
+
+.userLogin input[type=text],input[type=password]{
+    padding: 1%;
+    width: 90%;
+    text-align: center;
+    border-radius: 6px;
+    transition: background-image s;
+}
+
+.userLogin input[type=submit]{
+    width: 90%;
+    padding: 3%;
+    margin-top: 5%;
+    background-color: rgba(58, 66, 218, 0.974);
+    color: #fff;
+    transform: scale(0.92);
+    border-radius: 10px;
+    border-style: none;
+    transition: transform 2s,background-color 2s,box-shadow 2s;
+    font-size: 20px;
+}
+
+.userLogin input[type=submit]:hover{
+    background-color: rgba(35, 40, 116, 0.933);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.474);
+    transform: scale(1);
+}
+
+
+.userLogin a{
+    text-decoration: none;
+    cursor: help;
+}
+
+#logo{
+    /* transform: translate(-145%,50%); */
+    margin-top: 10%;
+    padding: 0% 45% 1%;
+    width: 15%;
+    transition: transform 2s;
+
+}
+
+#logo:hover{
+    transform: rotate(-2turn);
+}
+
+.logoBox h2{
+    color: #fff;
+    margin: 1% auto;
+    transform: translate(-40%,-5%);
+    transition: transform 2s;
+
+}
+.logoBox h2:hover{
+    transform: scale(1.8) translateX(-40%);
+}
+/* Footer section */
+.footer{
+    width: 100%;
+    height: 12.28rem;
+    border: 1px solid black;
+}
+.author{
+    padding-top: 6%;
+    text-align: center;
+}
+.author a
