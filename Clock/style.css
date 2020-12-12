@@ -5,7 +5,7 @@
 
 body{
     background-image: linear-gradient(to right, hsl(200,100%,50%),hsl(175,100%, 50%));
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -83,4 +83,18 @@ body{
     width: 10px;
     height: 35%;
     background-color: black;
+}
+
+
+#persianDate{
+    display: block;
+    font-size: 3rem;
+}
+#persianDate2{
+    display: block;
+    font-size: 3rem;
+}
+#persianDate3{
+    display: block;
+    font-size: 3rem;
 }
