@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    margin: 3% auto;
+    width: 90%;
+    height: 88vh;
+    border: 3px solid black;
+    border-radius: 10vh;   
+    overflow: hidden;
+
+}
+
+.headLine{
+    width: 100%;
+    height: 15vh;
+    /* border-bottom: 1px solid black; */
+    padding: 1rem;
+    background-color: rgba(1, 2, 1, 0.842);
+    color: rgb(255, 255, 255);
+    line-height: 3rem;
+    word-spacing: 10px;
+    /* overflow: hidden; */
+}
+.mainSection{
+    width: 100%;
+    height: 65vh;
+    /* border-bottom: 1px solid black; */
+    background: rgb(184, 184, 184);
+}
+.imgBox{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    /* border: 1px solid black; */
+}
+.imgBox img{
+/* padding: 3%; */
+margin: 2rem;
+width: 20%;
+
+}
+.btnBox{
+    width: 100%;
+    display: block;
+}
+.btnBox button{
+    width: 40%;
+    height: 7vh;
+    font-size: 1.5rem;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(216, 60, 25, 0.844);
+    color: rgb(48, 13, 49);
+    font-weight: bolder;
+    transition: 0.5s;
+    
+}
+.btnBox button:hover{
+    background-color: rgba(211, 106, 82, 0.844);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.747);
+}
+
+.endLine{
+    width: 100%;
+    height: 10vh;
+    /* border-bottom: 1px solid black; */
+    padding: 1.5rem;
+    background-color: cadetblue;
+    color: #555454f7;
+}
+.endLine a{
+    text-decoration: none;
+    color:darkblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.endLine a:hover{
+    cursor: pointer;
+}

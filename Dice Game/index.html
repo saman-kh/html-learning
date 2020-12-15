@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="headLine">
+            <h1>بازی تاس شانسی</h1>
+            <p>تاس بریز و شانستو امتحان کن!</p>
+        </div>
+        <div class="mainSection">
+            <div class="imgBox">
+                <label>نفر اول :</label><img src="image/dice6.png" alt="img1">
+                <label>نفر دوم :</label><img src="image/dice6.png" alt="img2">
+            </div>
+            <div class="btnBox" onclick="javascript:randDice();">
+                <button id="dice">تاس بریز!</button>
+                <p id="winner"></p>
+            </div>
+        </div>
+        <div class="endLine">
+            <p>طراحی شده توسط <a href="mailto:saamaan.kh@gmail.com">سامان خرسندی</a> &copy; 1399 - 1400</p>
+        </div>
+    </div>
+    <script src="gameCode.js"></script>
 </body>
 </html>
