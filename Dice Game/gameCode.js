@@ -2,13 +2,13 @@
 
 function randDice(){
 var randNum1 = Math.floor(Math.random()*6) + 1;
-var randDiceImg = "Dice"+randNum1+".png";
+var randDiceImg = "dice"+randNum1+".png";
 var randImgSrc1 = "http://jirinco.ir/project-image/"+randDiceImg;
 var img1 = document.querySelectorAll("img")[0];
 img1.setAttribute("src",randImgSrc1);
 
 var randNum2 = Math.floor(Math.random()*6 )+1;
-var randDiceImg2 = "Dice"+randNum2+".png";
+var randDiceImg2 = "dice"+randNum2+".png";
 var randImgSrc2 = "http://jirinco.ir/project-image/"+randDiceImg2;
 var img2 = document.querySelectorAll("img")[1];
 img2.setAttribute("src",randImgSrc2);
